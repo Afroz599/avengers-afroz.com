@@ -1,0 +1,18 @@
+.container{
+    background-color: rgb(167, 216, 200);
+    height: 800px;
+    width: 800px;
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    column-gap: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+.item{
+    background-color: rgb(6, 87, 87);
+    height: 200px;
+    width: 200px;
+
+}
